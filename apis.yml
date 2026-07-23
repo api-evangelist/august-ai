@@ -1,20 +1,52 @@
 aid: august-ai
 name: August AI
-description: 'August AI is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'August AI is a consumer health-AI companion that helps people understand
+  their symptoms, lab reports, prescriptions, and medications, and connects them to
+  licensed physicians through asynchronous, chat-based telehealth visits. Founded in
+  2022 by Anuruddh Mishra after a four-month misdiagnosis, August operates as a 24/7
+  health assistant available on iOS, Android, and WhatsApp, storing lab reports and
+  conversation history in long-term memory to deliver personalized guidance. The service
+  pairs a free AI symptom-assessment experience with paid online doctor consultations
+  from board-certified MDs licensed across all 50 US states. August reports serving
+  millions of users across 160+ countries in 30+ languages, and publishes medical
+  benchmarks including 100% accuracy on the USMLE, 97.4% on MedQA, 99.4% on lab-report
+  document processing, and 100% precision/recall on emergency escalation. It is backed
+  by Accel and Claypond Capital. August is a consumer application and does not currently
+  publish a developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/august-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.meetaugust.ai/og-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
+- claypond-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Ai
+- AI
+- Health
+- Telehealth
+- Healthcare
+- Health AI
+- Medical
+- Consumer Health
+- Symptom Checker
+- WhatsApp
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +56,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.meetaugust.ai/
+- type: Blog
+  url: https://www.meetaugust.ai/blog
+- type: TermsOfService
+  url: https://www.meetaugust.ai/terms
+- type: PrivacyPolicy
+  url: https://www.meetaugust.ai/privacy
+- type: SignUp
+  url: https://app.meetaugust.ai/
+- type: iOSApp
+  url: https://apps.apple.com/us/app/august-your-24-7-health-ai/id6746088428
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.augustai.mobileapp
+- type: DomainSecurity
+  url: security/august-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
