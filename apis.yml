@@ -14,6 +14,17 @@ description: 'August AI is a consumer health-AI companion that helps people unde
   by Accel and Claypond Capital. August is a consumer application and does not currently
   publish a developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/august-ai/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
